@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-04-17T12:38:18 IST" name="Default suite" finished-at="2026-04-17T12:38:18 IST" duration-ms="98">
+    <groups>
+      <group name="groupB">
+        <method signature="GroupsExample.testMethod1ForGroupB()[pri:0, instance:com.TestNG.seleniumTestNG.GroupsExample@22ff4249]" name="testMethod1ForGroupB" class="com.TestNG.seleniumTestNG.GroupsExample"/>
+        <method signature="GroupsExample.testMethod2ForGroupB()[pri:0, instance:com.TestNG.seleniumTestNG.GroupsExample@22ff4249]" name="testMethod2ForGroupB" class="com.TestNG.seleniumTestNG.GroupsExample"/>
+      </group> <!-- groupB -->
+      <group name="groupA">
+        <method signature="GroupsExample.testMethod1ForGroupA()[pri:0, instance:com.TestNG.seleniumTestNG.GroupsExample@22ff4249]" name="testMethod1ForGroupA" class="com.TestNG.seleniumTestNG.GroupsExample"/>
+        <method signature="GroupsExample.testMethod2ForGroupA()[pri:0, instance:com.TestNG.seleniumTestNG.GroupsExample@22ff4249]" name="testMethod2ForGroupA" class="com.TestNG.seleniumTestNG.GroupsExample"/>
+      </group> <!-- groupA -->
+    </groups>
+    <test started-at="2026-04-17T12:38:18 IST" name="Default test" finished-at="2026-04-17T12:38:18 IST" duration-ms="98">
+      <class name="com.TestNG.seleniumTestNG.GroupsExample">
+        <test-method is-config="true" signature="starting_point()[pri:0, instance:com.TestNG.seleniumTestNG.GroupsExample@22ff4249]" started-at="2026-04-17T12:38:18 IST" name="starting_point" finished-at="2026-04-17T12:38:18 IST" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- starting_point -->
+        <test-method signature="testMethod1ForGroupA()[pri:0, instance:com.TestNG.seleniumTestNG.GroupsExample@22ff4249]" started-at="2026-04-17T12:38:18 IST" name="testMethod1ForGroupA" finished-at="2026-04-17T12:38:18 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod1ForGroupA -->
+        <test-method signature="testMethod1ForGroupB()[pri:0, instance:com.TestNG.seleniumTestNG.GroupsExample@22ff4249]" started-at="2026-04-17T12:38:18 IST" name="testMethod1ForGroupB" finished-at="2026-04-17T12:38:18 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod1ForGroupB -->
+        <test-method signature="testMethod2ForGroupA()[pri:0, instance:com.TestNG.seleniumTestNG.GroupsExample@22ff4249]" started-at="2026-04-17T12:38:18 IST" name="testMethod2ForGroupA" finished-at="2026-04-17T12:38:18 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod2ForGroupA -->
+        <test-method signature="testMethod2ForGroupB()[pri:0, instance:com.TestNG.seleniumTestNG.GroupsExample@22ff4249]" started-at="2026-04-17T12:38:18 IST" name="testMethod2ForGroupB" finished-at="2026-04-17T12:38:18 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod2ForGroupB -->
+        <test-method signature="dependsOnGroupA()[pri:0, instance:com.TestNG.seleniumTestNG.GroupsExample@22ff4249]" started-at="2026-04-17T12:38:18 IST" name="dependsOnGroupA" depends-on-groups="groupA" finished-at="2026-04-17T12:38:18 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dependsOnGroupA -->
+      </class> <!-- com.TestNG.seleniumTestNG.GroupsExample -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
