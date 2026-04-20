@@ -1,13 +1,12 @@
 package com.TestNG.seleniumTestNG;
 
-import org.junit.jupiter.api.Test;
-
-import static org.junit.jupiter.api.Assertions.*;
+import org.testng.annotations.Test;
+import static org.testng.Assert.assertTrue;
 
 public class AppTest {
-    
-  @Test
-  public void shouldAnswerWithTrue() {
-    assertTrue(true);
-  }
+
+    @Test
+    public void shouldAnswerWithTrue() {
+        assertTrue(true);
+    }
 }
