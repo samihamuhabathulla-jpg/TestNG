@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-04-20T11:05:46 IST" name="Suite" finished-at="2026-04-20T11:06:06 IST" duration-ms="20092">
+    <groups>
+    </groups>
+    <test started-at="2026-04-20T11:05:46 IST" name="Test" finished-at="2026-04-20T11:06:06 IST" duration-ms="20092">
+      <class name="com.TestNG.seleniumTestNG.DemoBlaze">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.TestNG.seleniumTestNG.DemoBlaze@4c15e7fd]" started-at="2026-04-20T11:05:46 IST" name="beforeMethod" finished-at="2026-04-20T11:05:53 IST" duration-ms="6905" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="validation()[pri:2, instance:com.TestNG.seleniumTestNG.DemoBlaze@4c15e7fd]" started-at="2026-04-20T11:05:53 IST" name="validation" finished-at="2026-04-20T11:05:54 IST" duration-ms="712" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validation -->
+        <test-method is-config="true" signature="after()[pri:0, instance:com.TestNG.seleniumTestNG.DemoBlaze@4c15e7fd]" started-at="2026-04-20T11:05:54 IST" name="after" finished-at="2026-04-20T11:05:54 IST" duration-ms="332" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.TestNG.seleniumTestNG.DemoBlaze@4c15e7fd]" started-at="2026-04-20T11:05:54 IST" name="beforeMethod" finished-at="2026-04-20T11:05:58 IST" duration-ms="4139" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="invaliduser()[pri:1, instance:com.TestNG.seleniumTestNG.DemoBlaze@4c15e7fd]" started-at="2026-04-20T11:05:58 IST" name="invaliduser" finished-at="2026-04-20T11:06:00 IST" depends-on-methods="com.TestNG.seleniumTestNG.DemoBlaze.validation" duration-ms="1679" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invaliduser -->
+        <test-method is-config="true" signature="after()[pri:0, instance:com.TestNG.seleniumTestNG.DemoBlaze@4c15e7fd]" started-at="2026-04-20T11:06:00 IST" name="after" finished-at="2026-04-20T11:06:00 IST" duration-ms="265" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.TestNG.seleniumTestNG.DemoBlaze@4c15e7fd]" started-at="2026-04-20T11:06:00 IST" name="beforeMethod" finished-at="2026-04-20T11:06:04 IST" duration-ms="4113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="invalidpassword()[pri:3, instance:com.TestNG.seleniumTestNG.DemoBlaze@4c15e7fd]" started-at="2026-04-20T11:06:04 IST" name="invalidpassword" finished-at="2026-04-20T11:06:06 IST" duration-ms="1603" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidpassword -->
+        <test-method is-config="true" signature="after()[pri:0, instance:com.TestNG.seleniumTestNG.DemoBlaze@4c15e7fd]" started-at="2026-04-20T11:06:06 IST" name="after" finished-at="2026-04-20T11:06:06 IST" duration-ms="299" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- com.TestNG.seleniumTestNG.DemoBlaze -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
